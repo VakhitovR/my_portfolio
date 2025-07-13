@@ -1,0 +1,35 @@
+.container {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.heading {
+  font-family: glacialbold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.email {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+.note {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+@media (max-width: 650px) {
+  .heading {
+    text-align: center;
+  }
+}
